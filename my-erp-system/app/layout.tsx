@@ -23,7 +23,7 @@ export default function RootLayout({
             locale={viVN} // Chuyển sang tiếng Việt
             theme={{
               token: {
-                colorPrimary: "#1890ff", // Màu chủ đạo
+                colorPrimary: "#52c41a", // Màu chủ đạo
                 borderRadius: 6,
               },
             }}
