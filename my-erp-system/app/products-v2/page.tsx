@@ -69,13 +69,16 @@ const Products: React.FC = () => {
                 title="Số lượng tồn kho"
                 value={product.quantity}
                 suffix="chiếc"
-                valueStyle={{
-                  color:
-                    product.quantity > 10
-                      ? "#3f8600"
-                      : product.quantity > 0
-                      ? "#faad14"
-                      : "#cf1322",
+                styles={{
+                  content: {
+                    // Thử 'content' thay vì 'value'
+                    color:
+                      product.quantity > 10
+                        ? "#3f8600"
+                        : product.quantity > 0
+                        ? "#faad14"
+                        : "#cf1322",
+                  },
                 }}
               ></Statistic>
             </Card>
